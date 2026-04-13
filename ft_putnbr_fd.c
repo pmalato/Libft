@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pecoelho <pecoelho@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: pecoelho <pecoelho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/28 19:54:12 by pecoelho          #+#    #+#             */
-/*   Updated: 2026/03/29 00:16:23 by pecoelho         ###   ########.fr       */
+/*   Updated: 2026/04/13 11:30:51 by pecoelho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_putnbr_fd(int n, int fd)
 	long	nb;
 	char	c;
 
+	if (fd < 0)
+		return ;
 	nb = n;
 	if (nb < 0)
 	{

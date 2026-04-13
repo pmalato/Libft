@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: pecoelho <pecoelho@student.42lisboa.com    +#+  +:+       +#+         #
+#    By: pecoelho <pecoelho@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/29 23:50:20 by pecoelho          #+#    #+#              #
-#    Updated: 2026/04/01 13:11:52 by pecoelho         ###   ########.fr        #
+#    Updated: 2026/04/13 21:30:47 by pecoelho         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
