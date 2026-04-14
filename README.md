@@ -51,7 +51,7 @@ Functions included:
 1. ft_toupper  
 
 ---
-### Instruction
+### Instructions
 Using linux terminal ```make``` or ```make all``` you are able to compile every function included in this library and therefore run any tests you would've wished to. In order to clean any file created from .c files simply use ```make clean``` comand. To clean EVERY FILE, including the one created form the header file.
 
 Command examples:

@@ -6,7 +6,7 @@
 /*   By: pecoelho <pecoelho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/27 09:14:22 by pecoelho          #+#    #+#             */
-/*   Updated: 2026/04/13 21:21:33 by pecoelho         ###   ########.fr       */
+/*   Updated: 2026/04/14 14:38:57 by pecoelho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ static size_t	ft_cwords(char const *s, char c)
 {
 	size_t	words;
 
+	if (!s)
+		return (0);
 	words = 0;
 	while (*s)
 	{
@@ -45,6 +47,8 @@ static char	**split_helper(char **res, char const *s, char c)
 	char		**p;
 	char const	*start;
 
+	if (!res)
+		return (NULL);
 	p = res;
 	while (1)
 	{
@@ -66,6 +70,8 @@ char	**ft_split(char const *s, char c)
 {
 	char	**p;
 
+	if (!s)
+		return (NULL);
 	p = ft_calloc(ft_cwords(s, c) + 1, sizeof(char *));
 	if (!p)
 		return (NULL);
