@@ -6,7 +6,7 @@
 /*   By: pecoelho <pecoelho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/27 09:56:07 by pecoelho          #+#    #+#             */
-/*   Updated: 2026/04/16 20:52:21 by pecoelho         ###   ########.fr       */
+/*   Updated: 2026/04/17 09:57:06 by pecoelho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,10 @@
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*p1;
-	size_t	msize;
 
-	if (size != 0 && nmemb > SIZE_MAX / size)
-		return (NULL);
-	msize = nmemb * size;
-	p1 = malloc(msize);
+	p1 = malloc(nmemb * size);
 	if (!p1)
 		return (NULL);
-	ft_memset(p1, 0, msize);
+	ft_memset(p1, 0, size);
 	return (p1);
 }

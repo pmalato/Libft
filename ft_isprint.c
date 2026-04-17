@@ -6,11 +6,9 @@
 /*   By: pecoelho <pecoelho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/27 09:56:54 by pecoelho          #+#    #+#             */
-/*   Updated: 2026/04/13 20:58:02 by pecoelho         ###   ########.fr       */
+/*   Updated: 2026/04/17 09:57:51 by pecoelho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_isprint(int c)
 {
